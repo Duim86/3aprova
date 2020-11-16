@@ -1,0 +1,31 @@
+header {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(224, 63, 19, 1));
+}
+
+header .logo {
+  flex: 1;
+}
+
+header .logo img {
+  height: 80px;
+}
+
+header .links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 2;
+  flex-wrap: wrap;
+}
+
+header .links a{
+  color: #E03F13;
+  background: #fafafa;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 10px;  
+}

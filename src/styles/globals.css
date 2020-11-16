@@ -1,0 +1,29 @@
+/* Geral */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+#root {
+    width: 90vw;
+    margin: auto;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
