@@ -13,10 +13,10 @@ function Header() {
           <img src={logo} alt="logo" />
         </div>
         <div class="links">
-          <Link to="/">Produto</Link>
-          <Link to="/">Funcionalidades</Link>
-          <Link to="/">Preços</Link>
-          <Link to="/">Contato</Link>
+          <Link to="/product">Produto</Link>
+          <Link to="/functions">Funcionalidades</Link>
+          <Link to="/prices">Preços</Link>
+          <Link to="/contact">Contato</Link>
         </div>    
       </header>
     </>
